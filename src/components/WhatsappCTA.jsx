@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsappCTA = () => {
-  const phone = "+573234830845"; // ← reemplaza con tu número (con código país)
+  const phone = "573234830845"; // ← reemplaza con tu número (con código país)
   const message = "Hola, estoy interesado en sus colchones. ¿Podrían brindarme más información?";
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
