@@ -1,6 +1,8 @@
 import colchon1 from "../assets/colchon1.jpg";
 import colchon2 from "../assets/colchon2.jpg";
 import colchon3 from "../assets/colchon3.jpg";
+import toalla5 from "../assets/toalla5.jpg";
+import almohada from "../assets/almohada6.jpg";
 
 const productos = [
     {
@@ -11,16 +13,17 @@ const productos = [
     },
     {
       nombre: "Colchón Hybrid Confort",
-      imagen: colchon2,
+      imagen: almohada,
       descripcion: "Combinación perfecta de resortes y espuma con tecnología de enfriamiento.",
       precio: "$649",
     },
     {
       nombre: "Colchón Ortopédico Zen",
-      imagen: colchon3,
+      imagen: toalla5,
       descripcion: "Soporte firme y diseño ergonómico recomendado por especialistas.",
       precio: "$599",
     },
+    
     // Puedes seguir agregando más productos aquí
   ];
   
