@@ -1,9 +1,17 @@
-
 import colchon4 from "../assets/colchon4-Hero.jpg";
+import logo from "../assets/logo-negro.jpg";
+
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-indigo-100 via-white to-indigo-50 py-24 px-6 overflow-hidden">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 relative">
+    <section className="relative bg-gradient-to-r from-indigo-100 via-white to-indigo-50 overflow-hidden">
+      <div className="flex items-center justify-center pt-10 h-12 md:h-16 lg:h-20 w-auto object-contain ">
+        <img 
+          src={logo}
+          alt="Logo"
+          className="h-20 w-auto"
+        />
+      </div>
+      <div className="mt-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 relative">
         {/* TEXTO */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -19,7 +27,7 @@ const Hero = () => {
             href="#productos"
             className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-medium hover:scale-105 transition transform shadow-lg"
           >
-            Ver productos
+            ¡COMPRA YA!
           </a>
         </div>
 

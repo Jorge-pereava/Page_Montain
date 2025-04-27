@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsappWidget = () => {
-  const phone = "573104295329"; // ← Reemplaza con tu número con código de país
+  const phone = "3234830845"; // ← Reemplaza con tu número con código de país
   const message = "Hola, estoy interesado en sus colchones. ¿Pueden brindarme más información?";
   const link = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
