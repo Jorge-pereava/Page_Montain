@@ -1,5 +1,5 @@
 import colchon4 from "../assets/colchon4-Hero.jpg";
-import logo from "../assets/logo-negro.jpg";
+import logo from "../assets/logo.png";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
         <img 
           src={logo}
           alt="Logo"
-          className="h-20 w-auto"
+          className="h-40 w-auto"
         />
       </div>
       <div className="mt-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 relative">

@@ -17,8 +17,6 @@ function App() {
       <Testimonials/>
       <WhatsappCTA/>
       <WhatsappWidget/>
-
-
       {/* <Features /> */}
     </div>
   );
