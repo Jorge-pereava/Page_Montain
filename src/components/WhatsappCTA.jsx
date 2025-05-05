@@ -6,7 +6,7 @@ const WhatsappCTA = () => {
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   return (
-    <section className="bg-green-50 py-20 px-6 text-center">
+    <section id="whatsapp" className="bg-green-50 py-20 px-6 text-center">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-6">
           Duerme tranquilo, guarda seguro. <b className="hidden md:block"/>

@@ -1,7 +1,8 @@
 import { CheckCircle } from "lucide-react";
 import video1 from "../assets/video1.mp4";
 import AutoPlayVideo from "./AutoPlayVideo";
-import AutoPlayWithSound from "../components/AutoPlayWithSound";
+// import AutoPlayWithSound from "../components/AutoPlayWithSound";
+// import VideoWithSoundToggle from "./VideoWithSoundToggle";
 
 const Benefits = () => {
   const highlights = [
@@ -39,22 +40,11 @@ const Benefits = () => {
           </ul>
         </div>
 
-        {/* IMAGEN */}
+        {/* VIDEO */}
         <div className="flex justify-center">
-        { <video
-            src={video1}
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-[300px] max-w-[700px] h-auto mx-auto rounded-lg shadow-lg responsive-video"
-        >Tu navegador no soporta el video.    
-            <section id="video" className="py-12 bg-gray-100">
-              <h2 className="text-3xl font-bold text-center mb-6">Mira nuestro video</h2>
-              <AutoPlayVideo />
-              <AutoPlayWithSound/>
-            </section>
-        </video> }
+          <div className="w-[300px] max-w-[700px] h-auto mx-auto rounded-lg shadow-lg responsive-video">
+            <AutoPlayVideo />
+          </div>
         </div>
       </div>
     </section>

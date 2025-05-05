@@ -1,9 +1,5 @@
-// import colchon1 from "../assets/colchon1.jpg";
-// import colchon2 from "../assets/colchon2.jpg";
-// import colchon3 from "../assets/colchon3.jpg";
 import toalla5 from "../assets/toalla5.jpg";
 import almohada from "../assets/almohada6.jpg";
-
 const productos = [
     {
       nombre: "Colchón Hybrid Confort",
@@ -18,7 +14,7 @@ const productos = [
   ];
   
   const ProductGallery = () => {
-    return (
+     return (
     <section id="productos" className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Explora nuestros productos</h2>

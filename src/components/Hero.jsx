@@ -2,16 +2,20 @@ import colchon4 from "../assets/colchon4-Hero.jpg";
 import logo from "../assets/logo.png";
 
 const Hero = () => {
+  const phone = "573234830846"; // ← reemplaza con tu número (con código país)
+  const message = "Hola, estoy interesado en sus colchones. ¿Podrían brindarme más información?";
+  const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   return (
     <section className="relative bg-gradient-to-r from-indigo-100 via-white to-indigo-50 overflow-hidden">
-      <div className="flex items-center justify-center pt-10 h-12 md:h-16 lg:h-20 w-auto object-contain ">
+      {/* LOGO DE LA MONTAÑA */}
+      <div className="w-auto object-contain">
         <img 
           src={logo}
           alt="Logo"
-          className="h-40 w-auto"
+          className="h-56 md:h-36 lg:h-40 xl:h-56 w-auto"
         />
       </div>
-      <div className="mt-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 relative">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 relative">
         {/* TEXTO */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -24,7 +28,9 @@ const Hero = () => {
             El único colchón ortopédico con caja de seguridad integrada.
           </p>
           <a
-            href="#productos"
+            id="compraYa"
+            href={whatsappLink}
+            target="_blank"
             className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-medium hover:scale-105 transition transform shadow-lg"
           >
             ¡COMPRA YA!

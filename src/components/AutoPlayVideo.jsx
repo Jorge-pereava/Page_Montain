@@ -1,10 +1,14 @@
 import React, { useEffect, useRef } from "react";
-import video1 from "../assets/video1.mp4"
+import video1 from "../assets/video1.mp4";
+
 // VIDEO
 const AutoPlayVideo = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
+    const handleInteraction = () => setUserInteracted(true);
+    window.addEventListener('scroll', handleInteraction);
+    document.getElementById("videito")
     const observer = new IntersectionObserver(
       ([entry]) => {
         const video = videoRef.current;
@@ -26,6 +30,8 @@ const AutoPlayVideo = () => {
     }
 
     return () => {
+      window.removeEventListener('scroll', handleInteraction);
+      if (videoRef.current) observer.unobserve(videoRef.current);
       if (videoRef.current) {
         observer.unobserve(videoRef.current);
       }
@@ -40,10 +46,11 @@ const AutoPlayVideo = () => {
         loop
         controls
         className="w-full max-w-[700px] h-auto mx-auto rounded-lg shadow-lg"
-      />
-      <p className="text-center text-gray-500 mt-2">(Haz clic para reproducir con sonido)</p>
+      >
+      </video>
     </div>
   );
 };
+
 
 export default AutoPlayVideo;
