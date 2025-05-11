@@ -1,25 +1,22 @@
-// import Features from "./components/Features";
+import Hero from "./components/Hero.jsx";
+import Benefits from "./components/Benefits.jsx";
+import Benefits2 from "./components/Benefits2.jsx";
+import OfferSection from "./components/OfferSeccion.jsx";
+import WhatsappWidget from "./components/WhatsappWidget.jsx";
+import ImageSeccion from "./components/ImageSeccion.jsx";
+import Testimonials from "./components/Testimonials.jsx";
 
-import Hero from "./components/Hero";
-import ProductGallery from "./components/ProductGallery";
-import ReviewMap from "./components/ReviewMap";
-import Benefits from "./components/Benefits";
-import Testimonials from "./components/Testimonials";
-import WhatsappCTA from "./components/WhatsappCTA";
-import WhatsappWidget from "./components/WhatsappWidget";
 
 function App() {
   return (   
     <div className="min-h-screen bg-white text-gray-900">
-      
       <Hero/>
-      <ProductGallery />
-      <ReviewMap />
       <Benefits/>
-      <Testimonials/>
-      <WhatsappCTA/>
+      <OfferSection/>
       <WhatsappWidget/>
-      {/* <Features /> */}
+      <ImageSeccion/>
+      <Benefits2/>
+      <Testimonials/>
     </div>
   );
 }

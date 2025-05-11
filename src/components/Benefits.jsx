@@ -1,21 +1,21 @@
-import { CheckCircle } from "lucide-react";
-import video1 from "../assets/video1.mp4";
-import AutoPlayVideo from "./AutoPlayVideo";
-// import AutoPlayWithSound from "../components/AutoPlayWithSound";
-// import VideoWithSoundToggle from "./VideoWithSoundToggle";
+// import { CheckCircle } from "lucide-react";
+// import ImageSeccion from "./ImageSeccion"
+import Colchon from "../assets/Colchon.png"
 
 const Benefits = () => {
   const highlights = [
-    "Caja fuerte integrada para guardar objetos de valor",
-    "Firmeza ortopédica 8/10: Ideal para una buena postura",
-    "Sistema de espuma poliédrica y compact foam para mayor confort",
-    "Altura de 36 cm y acabadi en tela Jacquard.",
-    "Garantía de 5 años",
+    "🌙 Sueño profundo y continuo gracias a su diseño ortopédico",
+    "🧘‍♂️ Reducción del estrés y las tensiones musculares",
+    "🌿 Frescura y confort durante toda la noche",
+    "🛡️ Hipoalergénico y libre de ácaros",
+    "💪 Alta durabilidad y soporte firme de larga duración",
+    "🔇 Silencioso y sin movimientos molestos",
+    "🛏️ Ideal para todo tipo de cuerpos y posiciones de sueño",  
   ];
 
   return (
-    <section id="productos" className="py-20 px-6 bg-white">
-      <div className="max-w-7xl mx-auto text-center mb-12">
+    <section id="productos" className="py-10 px-6 bg-white">
+      <div className="max-w-7xl mx-auto text-center mb-5">
         <h2 className="text-4xl font-bold text-indigo-900">¿Por qué elegir nuestros colchones?</h2>
       </div>
 
@@ -25,26 +25,20 @@ const Benefits = () => {
           <h3 className="text-2xl font-semibold text-indigo-800 mb-4">
             ¡Beneficios del colchón Safe Dreams!
           </h3>
-          {/* <p className="text-gray-700 mb-6">
-            Nuestros colchones están diseñados con materiales de última generación que se adaptan
-            a tu cuerpo, regulan la temperatura y alivian puntos de presión.
-          </p> */}
-
           <ul className="space-y-4">
             {highlights.map((item, index) => (
               <li key={index} className="flex items-center text-gray-700">
-                <CheckCircle className="text-indigo-600 w-5 h-5 mr-3" />
                 {item}
               </li>
             ))}
           </ul>
         </div>
-
-        {/* VIDEO */}
-        <div className="flex justify-center">
-          <div className="w-[300px] max-w-[700px] h-auto mx-auto rounded-lg shadow-lg responsive-video">
-            <AutoPlayVideo />
-          </div>
+        <div className="max-w-4xl mx-auto">
+          <img
+            src= {Colchon} // Imagen local, asegúrate que esté en /public/images/
+            alt="Colchón moderno flotante"
+            className="mx-auto w-full max-w-xs md:max-w-sm lg:max-w-md rounded-2xl shadow-lg transition-transform duration-500 hover:scale-105"
+          />
         </div>
       </div>
     </section>

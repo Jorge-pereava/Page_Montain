@@ -2,27 +2,20 @@ import { Star } from "lucide-react";
 import persona_icon from "../assets/persona_icon.png"
 const testimonials = [
   {
-    comment: <h4> La tranquilidad que buscaba
-                <p>Siempre he sido un poco preocupado por guardar mis cosas de valor en casa.
-                  en Quibdó, uno escucha de todo, aunque trato de ser cuidadoso, nunca está demás
-                  tener un extra de seguridad. Cuando vi el colchón Safe Dreams en Almacén La Montaña,
-                  ¡Me pareció una idea genial! No solo es super cómodo, de verdad siento que descanso mejor, sino
-                  la caja fuerte me da una paz mental increible. Ahora guardo mis documentos importantes y algunas joyas ahí,
-                  duermo mucho más tranquilo. ¡Excelente producto!
-                </p>
-              </h4>,
+    name: "Diana y Miguel, 38 años",
+    comment: "Desde que compramos el colchón, dormimos sin interrupciones. Nos despertamos con energía y cero dolores.",
     avatar: persona_icon,
     rating: 5,
   },
   {
-    name: "Carlos Méndez",
-    comment: "",
+    name: "Carlos M., 46 años",
+    comment: "Trabajo bajo mucho estrés. Este colchón ha sido mi mejor inversión para descansar de verdad.",
     avatar: persona_icon,
     rating: 5,
   },
   {
-    name: "Ana Rodríguez",
-    comment: "Me encanta lo cómodo que es. Además, se ve increíble en mi habitación.",
+    name: "Laura G., 32 años",
+    comment: "Sufría de insomnio por un mal colchón. El cambio fue inmediato. Ahora descanso toda la noche.",
     avatar: persona_icon,
     rating: 5,
   },
