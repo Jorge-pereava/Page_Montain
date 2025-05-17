@@ -3,7 +3,7 @@ import Benefits from "./components/Benefits.jsx";
 import Benefits2 from "./components/Benefits2.jsx";
 import OfferSection from "./components/OfferSeccion.jsx";
 import WhatsappWidget from "./components/WhatsappWidget.jsx";
-import ImageSeccion from "./components/ImageSeccion.jsx";
+import ReviewMap from "./components/ReviewMap.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 
 
@@ -14,7 +14,7 @@ function App() {
       <Benefits/>
       <OfferSection/>
       <WhatsappWidget/>
-      <ImageSeccion/>
+      <ReviewMap/>
       <Benefits2/>
       <Testimonials/>
     </div>

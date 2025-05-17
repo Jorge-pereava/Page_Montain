@@ -2,19 +2,19 @@ import { Star } from "lucide-react";
 import persona_icon from "../assets/persona_icon.png"
 const testimonials = [
   {
-    name: "Diana y Miguel, 38 años",
+    name: "Diana y Miguel. 38 años",
     comment: "Desde que compramos el colchón, dormimos sin interrupciones. Nos despertamos con energía y cero dolores.",
     avatar: persona_icon,
     rating: 5,
   },
   {
-    name: "Carlos M., 46 años",
+    name: "Carlos M. 46 años",
     comment: "Trabajo bajo mucho estrés. Este colchón ha sido mi mejor inversión para descansar de verdad.",
     avatar: persona_icon,
     rating: 5,
   },
   {
-    name: "Laura G., 32 años",
+    name: "Laura G. 32 años",
     comment: "Sufría de insomnio por un mal colchón. El cambio fue inmediato. Ahora descanso toda la noche.",
     avatar: persona_icon,
     rating: 5,

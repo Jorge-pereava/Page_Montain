@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react";
-import Colchon from "../assets/Colchon.png"
+import AutoPlayVideo from './AutoPlayVideo'
 
 const Benefits2 = () => {
   const highlights = [
@@ -31,12 +31,11 @@ const Benefits2 = () => {
             ))}
           </ul>
         </div>
-        <div className="max-w-4xl mx-auto">
-          <img
-            src= {Colchon} // Imagen local, asegúrate que esté en /public/images/
-            alt="Colchón moderno flotante"
-            className="mx-auto w-full max-w-xs md:max-w-sm lg:max-w-md rounded-2xl shadow-lg transition-transform duration-500 hover:scale-105"
-          />
+        {/* VIDEO */}
+        <div className="flex justify-center">
+          <div className="w-[300px] max-w-[700px] h-auto mx-auto rounded-lg shadow-lg responsive-video">
+            <AutoPlayVideo />
+          </div>
         </div>
       </div>
     </section>
