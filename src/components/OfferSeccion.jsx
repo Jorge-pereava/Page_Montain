@@ -17,6 +17,9 @@ export default function OfferSection() {
           <div className="flex flex-col items-center gap-4 mt-2">
             <span className="text-xl text-gray-500 line-through">Antes: $1.850.000</span>
             <span className="text-4xl font-extrabold text-green-600">Ahora: $1.550.000</span>
+            <p className="text-gray-600 text-xs">
+              Precio para colchón de 140 x 190.
+            </p>
           </div>
   
           <p className="mt-6 text-gray-600">

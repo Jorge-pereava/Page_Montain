@@ -1,4 +1,5 @@
 import { ShoppingCartIcon } from '@heroicons/react/24/solid';
+import logo from '../assets/logo.png'
 
 export default function Hero() {
   const phone = "573234830846"; // Numero de telefono y codigo del pais
@@ -6,7 +7,7 @@ export default function Hero() {
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   return (
     <section
-      className="relative bg-gradient-to-b from-[#e0f2fe] via-[#f0f9ff] to-[#ffffff] text-gray-800 py-24 px-6 text-center overflow-hidden"
+      className="relative bg-gradient-to-b from-[#e0f2fe] via-[#f0f9ff] to-[#ffffff] text-gray-800 py-12 px-6 text-center overflow-hidden"
       style={{ animation: 'fadeIn 1.5s ease forwards', opacity: 0 }} // fade-in inicial
     >
 
@@ -31,6 +32,14 @@ export default function Hero() {
 
       {/* Capa de contenido */}
       <div className="relative max-w-3xl mx-auto">
+        <div className="w-full flex justify-center md:justify-center">
+          <img 
+            src={logo} 
+            alt="Logo" 
+            className="h-20 sm:h-20 md:h-22 lg:h-24 xl:h-28 w-auto"
+            style={{ transformOrigin: 'center' }}
+          />
+        </div>
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-lg">
           Despídete del estrés y despierta renovado cada mañana
         </h1>

@@ -1,5 +1,6 @@
 import { CheckCircle } from "lucide-react";
-import AutoPlayVideo from './AutoPlayVideo'
+// import AutoPlayVideo from './AutoPlayVideo'
+import AutoPlayWithSound from './AutoPlayWithSound'
 
 const Benefits2 = () => {
   const highlights = [
@@ -34,7 +35,7 @@ const Benefits2 = () => {
         {/* VIDEO */}
         <div className="flex justify-center">
           <div className="w-[300px] max-w-[700px] h-auto mx-auto rounded-lg shadow-lg responsive-video">
-            <AutoPlayVideo />
+            <AutoPlayWithSound />
           </div>
         </div>
       </div>
