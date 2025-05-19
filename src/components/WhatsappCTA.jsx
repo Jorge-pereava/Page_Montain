@@ -22,7 +22,7 @@ const WhatsappCTA = () => {
           className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full text-lg transition duration-300"
         >
           <MessageCircle className="w-5 h-5" />
-          Hablar por WhatsApp
+          Asesoria Gratuita
         </a>
       </div>
     </section>

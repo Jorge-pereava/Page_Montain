@@ -5,6 +5,7 @@ import OfferSection from "./components/OfferSeccion.jsx";
 import WhatsappWidget from "./components/WhatsappWidget.jsx";
 import ReviewMap from "./components/ReviewMap.jsx";
 import Testimonials from "./components/Testimonials.jsx";
+import WhatsappCTA from "./components/WhatsappCTA.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <ReviewMap/>
       <Benefits2/>
       <Testimonials/>
+      <WhatsappCTA/>
     </div>
   );
 }

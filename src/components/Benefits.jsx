@@ -16,15 +16,12 @@ const Benefits = () => {
   return (
     <section id="productos" className="py-10 px-6 bg-white">
       <div className="max-w-7xl mx-auto text-center mb-5">
-        <h2 className="text-4xl font-bold text-indigo-900">¿Por qué elegir nuestros colchones?</h2>
+        <h2 className="text-4xl font-bold text-indigo-900">Beneficios del colchón Safe Dreams</h2>
       </div>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* TEXTO */}
         <div className="text-left">
-          <h3 className="text-2xl font-semibold text-indigo-800 mb-4">
-            ¡Beneficios del colchón Safe Dreams!
-          </h3>
           <ul className="space-y-4">
             {highlights.map((item, index) => (
               <li key={index} className="flex items-center text-gray-700">
